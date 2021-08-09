@@ -1,0 +1,71 @@
+ 
+ body {
+    background-image: url("./pexels-misael-garcia-1707820.jpg");
+    
+     
+
+    
+ }
+ .main {
+    text-align: center;
+    border: 8pt solid white;
+    width: 50%;
+    margin: 10% auto;
+    padding: 7%;
+    font-size: 15pt;
+    border-radius: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: darkcyan;
+    background-color: white;
+    background-position: center;
+    background-image: img src="https://previews.123rf.com/images/maxborovkov/maxborovkov1808/maxborovkov180800230/106891951-quiz-time-sign-with-colorful-paper-confetti-vector-background-.jpg" alt="Quiz" width="55%"
+    ;
+    font-style: italic;
+    
+ }
+
+
+ #h1{
+    color: burlywood;
+    background-color: white;
+    text-align: center;
+    margin: -1%;
+    font-style: italic;
+    font-size: 40pt;
+
+ }
+ 
+ #submit{
+    border-radius: 40px;
+    border: 6px solid sienna;
+    font-size: 15pt;
+    background-color: lightgreen;
+    font-style: italic;
+    color: steelblue;
+    opacity: 0.8;
+   }
+.checked {
+   
+   margin-top: 15%;
+   
+}
+.scores {
+   text-align: center;
+   font-size: 25pt;
+   color: white;
+   font-style: italic;
+   
+
+}
+.again {
+   text-align: center;
+   font-size: 20pt;
+   border-radius: 45px;
+   
+
+}
+ 
+
+ 
+

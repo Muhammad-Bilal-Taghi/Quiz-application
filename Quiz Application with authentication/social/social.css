@@ -1,0 +1,48 @@
+
+
+body {font-family: Arial, Helvetica, sans-serif;
+      
+    padding: auto 10%;
+    width: 40%;
+    margin: 15%;
+    padding: 14%;
+    border: 3px solid #f1f1f1;
+background-color: white;
+    
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 36px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    text-align: center;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    text-align: center;
+  margin: 24px 0 12px 0;
+  }
+
+  .center {
+      text-align: center;
+  }
+  h2 {
+      text-align: center;
+      color: #04AA6D;
+  }

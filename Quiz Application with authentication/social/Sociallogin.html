@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyCrQLvm6v4HEk-T37W_bPfD9Nc3HSlP8ls",
+    authDomain: "quiz-application-static.firebaseapp.com",
+    projectId: "quiz-application-static",
+    storageBucket: "quiz-application-static.appspot.com",
+    messagingSenderId: "690559908532",
+    appId: "1:690559908532:web:c5ecfbd6f2a2dd76fa35e1",
+    measurementId: "G-J1ESMNH7QC"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+<link rel="stylesheet" href="social.css">
+    </head>
+<body>
+  <form action="./index.html" method="post">
+  <h2>LOGIN</h2>
+  <div class="center">
+  <img src="./avatar.jpg" alt="Avatar" class="avatar"><br>
+</div>
+    <label>Email Address</label><br>
+    <input type="email" placeholder="EnterEmailaddress" id="emails"><br>
+    <label for="Pass">Password</label><br>
+    <input type="password" placeholder="Enterpassword" id="passw"><br>
+    <button onclick="signin()">Login</button><br>
+     <a href="./signup.html">Signup</a>
+            <center>Or</center>  <br>
+    <button onclick="fblogin()">Login with Facebook</button><br>
+  </form>  
+<script src="social.js"></script>
+
+</body>
+</html>
